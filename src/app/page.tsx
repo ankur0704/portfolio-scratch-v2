@@ -61,6 +61,39 @@ export default function Home() {
         </div>
 
       </section>
+
+
+      {/* about section */}
+      <section id="about" className="min-h-screen bg-white px-4 py-20">
+        <div className="mx-auto max-w-4xl">
+
+          <h2 className="mb-12 text-center text-3xl font-bold text-gray-900">
+            About Me
+          </h2>
+
+          {/* image + text */}
+          <div className="grid gap-10 md:grid-cols-2 md:items-center">
+            <div className="flex justify-center">
+              <div className="overflow-hidden animate-float rounded-full">
+                {/* image here */}
+                <img src="/logo.jpg" width={256} height={256} className="object-cover" />
+              </div>
+            </div>
+            <div>
+              <p className="mb-4 text-gray-700">
+                Hi, I'm Ankur, Enginner by profession and a passionate developer who loves bilding things for the web.
+              </p>
+              <p className="mb-4 text-gray-700">
+                I specialize in React, Node.js and creating beautiful user experiences. When I'm not coding, you can find me exploring new technologies.
+              </p>
+              <p className="text-gray-700 font-semibold">
+                Currently focused on Full Stack Development and AI/ML.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   )
 }
