@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-400 via-white to-gray-400">
+    <main className="min-h-screen pt-16 bg-linear-to-br from-gray-400 via-white to-gray-400">
       {/* {hero section} */}
       <section className=" flex min-h-screen flex-col items-center justify-center px-4">
         <h1 className=" font-medium mb-1 text-lg text-gray-400">
@@ -175,7 +175,7 @@ export default function Home() {
             {/* grid 1 */}
             <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
 
-              <div className="h-48 bg-gradient-to-br from bg-purple-100 to bg-pink-500">
+              <div className="h-48 bg-linear-to-br from-purple-100 to-pink-500">
                 screenshot
               </div>
 
@@ -219,7 +219,7 @@ export default function Home() {
             {/* grid 2 */}
             <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
 
-              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+              <div className="h-48 bg-linear-to-br from-purple-100 to-pink-500">
                 screenshot
               </div>
 
@@ -263,7 +263,7 @@ export default function Home() {
             {/* grid 3 */}
             <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
 
-              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+              <div className="h-48 bg-linear-to-br from-purple-100 to-pink-500">
                 screenshot
               </div>
 
@@ -307,7 +307,7 @@ export default function Home() {
             {/* grid 4 */}
             <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
 
-              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+              <div className="h-48 bg-linear-to-br from-purple-100 to-pink-500">
                 screenshot
               </div>
 
