@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="min-h-screen pt-16 bg-linear-to-br from-gray-400 via-white to-gray-400">
       {/* {hero section} */}
-      <section className=" flex min-h-screen flex-col items-center justify-center px-4">
+      <section className="flex min-h-screen flex-col items-center justify-center px-4">
         <h1 className=" font-medium mb-1 text-lg text-gray-400">
           Hello i am Ankur !
         </h1>
