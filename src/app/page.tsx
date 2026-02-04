@@ -93,6 +93,69 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* skill section */}
+      <section id="skills" className="min-h-screen bg-gray-100 px-4 py-20">
+        <div className="mx-auto max-w-4xl">
+          {/* title */}
+          <h2 className=" mb-12 text-center text-3xl font-bold text-gray-900">
+            Skills & Technologies
+          </h2>
+
+          {/* skills grid */}
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-3">
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">React</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">Next.js</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">TailwindCSS</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">TypeScript</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">MongoDB</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">PostgreSQL</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">Node.js</p>
+              </span>
+            </div>
+
+            <div className="flex felx-col items-center rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg">
+              <span className="text-4xl">
+                <p className=" mt-3 font-medium text-gray-800">Python</p>
+              </span>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
 
     </main>
   )
