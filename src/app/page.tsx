@@ -157,6 +157,204 @@ export default function Home() {
         </div>
       </section>
 
+      {/* project section */}
+      <section id="projects" className="min-h-screen bg-white px-4 py-20">
+        <div className="mx-auto max-w-3xl">
+
+          {/* title */}
+          <h2 className=" mb-4 text-center text-3xl font-bold text-gray-900">
+            My Projects
+          </h2>
+          <p className="text-center mb-12 text-gray-600 font-bold">
+            Here are some of my recent works
+          </p>
+
+
+          {/* projects grid */}
+          <div className="grid gap-8 md:grid-cols-2">
+            {/* grid 1 */}
+            <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
+
+              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+                screenshot
+              </div>
+
+              <div className="p-6">
+
+                <h3 className="text-xl font-bold text-gray-900">Nike E-commerce Website</h3>
+                <p className="mt-2 text-gray-600">A modern, full-stack e-commerce application built with Next.js 15, Postgres (Neon), Drizzle ORM, and Tailwind CSS.</p>
+
+                {/* tech stack */}
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Next.js
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TypeScript
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TailwindCSS
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Zustand
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    PostgreSQL
+                  </span>
+
+
+                </div>
+                {/* links */}
+                <div className="mt-6 flex gap-4">
+                  <a href="" className="font-medium text-gray-900 hover:underline">
+                    Live Demo
+                  </a>
+                  <a href=""
+                    className="font-medium text-gray-900 hover:underline">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* grid 2 */}
+            <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
+
+              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+                screenshot
+              </div>
+
+              <div className="p-6">
+
+                <h3 className="text-xl font-bold text-gray-900">Nike E-commerce Website</h3>
+                <p className="mt-2 text-gray-600">A modern, full-stack e-commerce application built with Next.js 15, Postgres (Neon), Drizzle ORM, and Tailwind CSS.</p>
+
+                {/* tech stack */}
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Next.js
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TypeScript
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TailwindCSS
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Zustand
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    PostgreSQL
+                  </span>
+
+
+                </div>
+                {/* links */}
+                <div className="mt-6 flex gap-4">
+                  <a href="" className="font-medium text-gray-900 hover:underline">
+                    Live Demo
+                  </a>
+                  <a href=""
+                    className="font-medium text-gray-900 hover:underline">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* grid 3 */}
+            <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
+
+              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+                screenshot
+              </div>
+
+              <div className="p-6">
+
+                <h3 className="text-xl font-bold text-gray-900">Nike E-commerce Website</h3>
+                <p className="mt-2 text-gray-600">A modern, full-stack e-commerce application built with Next.js 15, Postgres (Neon), Drizzle ORM, and Tailwind CSS.</p>
+
+                {/* tech stack */}
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Next.js
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TypeScript
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TailwindCSS
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Zustand
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    PostgreSQL
+                  </span>
+
+
+                </div>
+                {/* links */}
+                <div className="mt-6 flex gap-4">
+                  <a href="" className="font-medium text-gray-900 hover:underline">
+                    Live Demo
+                  </a>
+                  <a href=""
+                    className="font-medium text-gray-900 hover:underline">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* grid 4 */}
+            <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
+
+              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+                screenshot
+              </div>
+
+              <div className="p-6">
+
+                <h3 className="text-xl font-bold text-gray-900">Nike E-commerce Website</h3>
+                <p className="mt-2 text-gray-600">A modern, full-stack e-commerce application built with Next.js 15, Postgres (Neon), Drizzle ORM, and Tailwind CSS.</p>
+
+                {/* tech stack */}
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Next.js
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TypeScript
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    TailwindCSS
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    Zustand
+                  </span>
+                  <span className="rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-700">
+                    PostgreSQL
+                  </span>
+
+
+                </div>
+                {/* links */}
+                <div className="mt-6 flex gap-4">
+                  <a href="" className="font-medium text-gray-900 hover:underline">
+                    Live Demo
+                  </a>
+                  <a href=""
+                    className="font-medium text-gray-900 hover:underline">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
     </main>
   )
 }
