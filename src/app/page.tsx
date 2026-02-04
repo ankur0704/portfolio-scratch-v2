@@ -175,7 +175,7 @@ export default function Home() {
             {/* grid 1 */}
             <div className=" group overflow-hidden rounded-2xl bg-gray-50 shadow-md transition-all hover:shadow-xl">
 
-              <div className="h-48 bg-linear-to-br from bg-purple-100 to bg-pink-500">
+              <div className="h-48 bg-gradient-to-br from bg-purple-100 to bg-pink-500">
                 screenshot
               </div>
 
@@ -352,6 +352,58 @@ export default function Home() {
 
 
           </div>
+        </div>
+      </section>
+
+      {/* contact section */}
+      <section id="contact" className="min-h-screen bg-gray-100 px-4 py-20">
+        <div className="mx-auto max-w-2xl">
+          {/* title */}
+          <h2 className="mb-4 text-center text-3xl font-bold text-gray-900">
+            Get In Touch
+          </h2>
+          <p className="mb-12 text-center text-gray-900">
+            Have a project in mind? Let's work together!
+          </p>
+
+          {/* contact form */}
+          <form className="space-y-6">
+            <div>
+              <label className="mb-2 block font-medium text-gray-700">Name</label>
+              <input type="text" placeholder="Your name" className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-gray-900 focus:outline-none " />
+            </div>
+
+            {/* email input */}
+            <div>
+              <label className="mb-2 block font-medium text-gray-700">Email</label>
+              <input type="email" placeholder="your@gmail.com" className="border border-gray-300 px-4 py-3 w-full rounded-lg focus:border-gray-900 focus:outline-none" />
+            </div>
+            {/* message area */}
+            <div>
+              <label className="mb-2 block font-medium text-gray-700">Message</label>
+              <textarea
+                rows={5}
+                placeholder="Tell me about your project..."
+                className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-gray-900 focus:outline-none resize-none"></textarea>
+            </div>
+
+            {/* submit button */}
+            <button
+              type="submit"
+              className="w-full rounded-lg bg-gray-900 py-4 font-medium text-white transition-all hover:bg-gray-800">
+              Send Message
+            </button>
+
+          </form>
+
+          {/* alternative contact */}
+          <div className="mt-12 text-center">
+            <p className="text-gray-600">Or reach me directly at</p>
+            <a href="mailto:sonavaneankur@gmail.com"
+              className="mt-2 block font-medium text-gray-900 hover:underline">sonavaneankur@gmail.com
+            </a>
+          </div>
+
         </div>
       </section>
 
