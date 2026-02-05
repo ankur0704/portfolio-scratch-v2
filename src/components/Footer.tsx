@@ -17,10 +17,10 @@ export default function Footer() {
                         <a href="https://github.com/ankur0704" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                             GitHub
                         </a>
-                        <a href="#" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                        <a href="https://www.linkedin.com/in/ankur-sonavane" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                             LinkedIn
                         </a>
-                        <a href="#" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                        <a href="https://x.com/Ankur77s" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                             Twitter
                         </a>
                     </div>
